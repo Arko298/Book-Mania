@@ -1,14 +1,23 @@
-import Footer from "./components/Footer/Footer"
+
+
+import { Layout } from "lucide-react"
+import { Routes, Route } from "react-router-dom"
+
+import Home from "./pages/Home/home"
 
 
 function App() {
   
 
   return (
-    <>
-      <div className="min-h-screen flex flex-col"><Footer/>
-      </div>
-    </>
+    
+      <Layout>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/book/:id" element={<BookPage />} /> */}
+      </Routes>
+    </Layout>
+    
   )
 }
 

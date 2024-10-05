@@ -1,0 +1,6 @@
+{
+    "codium.codeCompletion.enable": true,
+    "auto-rename-tag.activationOnLanguage": [
+        "react","javascript","typescript", "javascriptreact", "typescriptreact"
+    ]
+}
